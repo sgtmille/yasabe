@@ -1,0 +1,10 @@
+//ZONA DIRECTA
+zone "clase2smr12.com" {
+	type master;
+	file "/etc/bind/db.clase2smr12.com";
+};
+//ZONA INVERSA
+zone "35.20.172.in-addr.arpa" {
+	type master;
+	file "/etc/bind/db.172.20.35";
+};

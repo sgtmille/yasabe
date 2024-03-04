@@ -1,0 +1,2 @@
+local_root=/srv/ftp/paola
+virtual_use_local_privs=YES
